@@ -7,7 +7,6 @@ function AutoType(dom, msg, timing) {
   var loop = function () {
     dom.innerHTML += arr[inc];
     inc += 1;
-    console.log(inc);
     if (inc == len) {
       clearTimeout(loop);
     } else {
