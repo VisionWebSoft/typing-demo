@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="css/module.css">
 <link rel="stylesheet" href="css/state.css">
 <main>
-  <h1>Hi Manav,</h1>
+  <h1 class="auto-type">Hi Manav, </h1>
 </main>
-<script src="js/input.js"></script>
-<script src="js/logic.js"></script>
-<script src="js/output.js"></script>
-<script>output.init();</script>
+<script src="js/auto-type.js"></script>
+<script>
+  var heading = new AutoType(document.querySelector('.auto-type'), "how are you doing today?");
+</script>
