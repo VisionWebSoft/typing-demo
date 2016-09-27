@@ -9,9 +9,13 @@
 <link rel="stylesheet" href="css/module.css">
 <link rel="stylesheet" href="css/state.css">
 <main>
-  <h1>Hi Manav,</h1>
+  <h1 class="heading">Hi Manav, </h1>
+  <h2 class="sub-heading">HI!</h2>
+  <h3></h3>
 </main>
-<script src="js/input.js"></script>
-<script src="js/logic.js"></script>
-<script src="js/output.js"></script>
-<script>output.init();</script>
+<script src="js/auto-type.js"></script>
+<script>
+  var heading = new AutoType(document.querySelector('.heading'), "how are you doing today?");
+  var subheading = new AutoType(document.querySelector('.sub-heading'), " I am a very slow typer...",1000);
+  var temp = new AutoType(document.querySelector('h3'), "Maybe we should add a delay to the start time, what do you think?",100);
+</script>
