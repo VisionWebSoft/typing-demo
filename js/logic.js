@@ -1,5 +1,5 @@
 'use strict';
-window.logic=(function()
+atuoType.logic=(function()
 {
 	var state={};
 	var obj={};

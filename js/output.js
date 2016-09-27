@@ -1,6 +1,5 @@
 'use strict';
-window.output={};
-output.init=function()
+atuoType.output={};
+atuoType.output.init=function()
 {
-	mr.freeze(input,logic,output);
 };
